@@ -1,0 +1,21 @@
+/*Body*/
+
+body { font-family: Arial, Helvetica, sans-serif; /*Font family for all pages*/
+
+}
+
+/* Index */
+
+#logo { height: auto; width: 200px;  /*index logo*/
+
+}
+
+a { background-color: rgb(119, 119, 165); /*hyperlinks styling*/
+    color: white;
+
+}
+
+h1 { font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
