@@ -15,7 +15,41 @@ a { background-color: rgb(119, 119, 165); /*hyperlinks styling*/
 
 }
 
-h1 { font-family: 'Times New Roman', Times, serif;
+h1 { font-family: 'Times New Roman', Times, serif; /*Affects all <h1>*/
+    font-weight: 700; 
+    font-style: italic;
+
+}
+
+/*Recipes*/
+
+.button { background-color: black;
+    color: white;
+    font-size: 14px;
     font-weight: 700;
+
+}
+
+div.steps { background-color: lightgreen;
+
+}
+
+div#ingredients { background-color: lightpink   ;
+
+}
+
+div.tips { background-color: lightsalmon    ;
+
+}
+
+img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+
+}
+
+h1, h5 { text-align: center;
 
 }
