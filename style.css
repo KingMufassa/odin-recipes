@@ -1,55 +1,71 @@
 /*Body*/
 
-body { font-family: Arial, Helvetica, sans-serif; /*Font family for all pages*/
-
-}
-
-/* Index */
-
-#logo { height: auto; width: 200px;  /*index logo*/
-
-}
-
-a { background-color: rgb(119, 119, 165); /*hyperlinks styling*/
+body.index { 
+    font-family: Arial, Helvetica, sans-serif; 
     color: white;
-
+    background: #a7faf2;
+    width: 800px;
+    margin: 0 auto;
 }
 
-h1 { font-family: 'Times New Roman', Times, serif; /*Affects all <h1>*/
-    font-weight: 700; 
-    font-style: italic;
 
+
+/*Index*/
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3em;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    box-sizing: border-box;
+    width: 500px;
+    height: auto;
+    margin: 50px  auto;
+    text-align: center;
+}
+
+.carbonara, .lasagna, .eggs {
+    
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: white;
+    border: 2px solid  black;
+}
+
 
 /*Recipes*/
 
-.button { background-color: black;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-
+body.recipes { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background: #dcfaf7;
+    width: 1000px;
+    margin: 0 auto;
 }
 
-div.steps { background-color: lightgreen;
-
+.tips p {
+    margin: 8px 0;
 }
 
-div#ingredients { background-color: lightpink   ;
-
+h4 {
+    background-color: yellow;
+    display: inline;
 }
 
-div.tips { background-color: lightsalmon    ;
-
+button {
+    margin-top: 30px;
+    padding: 0px;
 }
 
-img { display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: auto;
-
-}
-
-h1, h5 { text-align: center;
-
+.button {
+    margin: 0px;
+    padding: 15px;
+    background-color: white;
+    display: inline-block;
 }
