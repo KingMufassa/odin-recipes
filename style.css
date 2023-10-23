@@ -49,23 +49,46 @@ body.recipes {
     margin: 0 auto;
 }
 
-.tips p {
-    margin: 8px 0;
+.image {
+    margin: 30px 0;
+    padding: 0 8px;
+    border: 6px solid white;
 }
 
-h4 {
+img {                       /*Image center*/
+    display: block;
+    margin: 18.72px auto;
+}
+
+.legend {                   /*Legend align*/
+    text-align: center;
+    margin: 18.72px 0;
+}
+
+.ingredients {
+    margin: 30px 0;
+    padding: 0 8px;
+    border: 6px solid white;
+}
+
+.steps {
+    margin: 30px 0;
+    padding: 0 8px;
+    border: 6px solid white; 
+}
+
+.tips {
+    margin: 30px 0;
+    padding: 0 8px;
+    border: 6px solid white;
+}
+
+span {                              /*Highlight tips*/
     background-color: yellow;
-    display: inline;
 }
 
-button {
-    margin-top: 30px;
-    padding: 0px;
-}
-
-.button {
-    margin: 0px;
-    padding: 15px;
+.button {                           /*Back button*/
+    padding: 20px;
     background-color: white;
     display: inline-block;
 }
